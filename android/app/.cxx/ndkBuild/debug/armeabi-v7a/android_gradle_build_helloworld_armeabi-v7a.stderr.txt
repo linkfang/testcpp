@@ -1,0 +1,69 @@
+In file included from C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.cpp:4:
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:10:34: error: no member named 'djinni' in the global namespace
+class NativeHelloWorld final : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld> {
+                               ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:10:42: error: unknown template name 'JniInterface'
+class NativeHelloWorld final : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld> {
+                                         ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:14:21: error: unknown type name 'jobject'
+    using JniType = jobject;
+                    ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:20:26: error: unknown type name 'JNIEnv'
+    static CppType toCpp(JNIEnv* jniEnv, JniType j) { return ::djinni::JniClass<NativeHelloWorld>::get()._fromJava(jniEnv, j); }
+                         ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:20:42: error: unknown type name 'JniType'
+    static CppType toCpp(JNIEnv* jniEnv, JniType j) { return ::djinni::JniClass<NativeHelloWorld>::get()._fromJava(jniEnv, j); }
+                                         ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:14: error: no member named 'djinni' in the global namespace
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+           ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:31: error: use of undeclared identifier 'JniType'
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+                              ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:51: error: unknown type name 'JNIEnv'
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+                                                  ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:22:14: error: no member named 'djinni' in the global namespace
+    static ::djinni::LocalRef<JniType> fromCpp(JNIEnv* jniEnv, const CppType& c) { return fromCppOpt(jniEnv, c); }
+           ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:22:31: error: use of undeclared identifier 'JniType'
+    static ::djinni::LocalRef<JniType> fromCpp(JNIEnv* jniEnv, const CppType& c) { return fromCppOpt(jniEnv, c); }
+                              ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:22:48: error: unknown type name 'JNIEnv'
+    static ::djinni::LocalRef<JniType> fromCpp(JNIEnv* jniEnv, const CppType& c) { return fromCppOpt(jniEnv, c); }
+                                               ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:26:14: error: no member named 'djinni' in the global namespace
+    friend ::djinni::JniClass<NativeHelloWorld>;
+           ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:27:14: error: no member named 'djinni' in the global namespace
+    friend ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld>;
+           ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:20:64: error: no member named 'djinni' in the global namespace
+    static CppType toCpp(JNIEnv* jniEnv, JniType j) { return ::djinni::JniClass<NativeHelloWorld>::get()._fromJava(jniEnv, j); }
+                                                             ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:20:81: error: 'NativeHelloWorld' does not refer to a value
+    static CppType toCpp(JNIEnv* jniEnv, JniType j) { return ::djinni::JniClass<NativeHelloWorld>::get()._fromJava(jniEnv, j); }
+                                                                                ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:10:7: note: declared here
+class NativeHelloWorld final : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld> {
+      ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:20:100: error: no member named 'get' in the global namespace
+    static CppType toCpp(JNIEnv* jniEnv, JniType j) { return ::djinni::JniClass<NativeHelloWorld>::get()._fromJava(jniEnv, j); }
+                                                                                                 ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:108: error: no member named 'djinni' in the global namespace
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+                                                                                                         ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:125: error: 'NativeHelloWorld' does not refer to a value
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+                                                                                                                            ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:10:7: note: declared here
+class NativeHelloWorld final : ::djinni::JniInterface<::helloworld::HelloWorld, NativeHelloWorld> {
+      ^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.hpp:21:144: error: no member named 'get' in the global namespace
+    static ::djinni::LocalRef<JniType> fromCppOpt(JNIEnv* jniEnv, const CppOptType& c) { return {jniEnv, ::djinni::JniClass<NativeHelloWorld>::get()._toJava(jniEnv, c)}; }
+                                                                                                                                             ~~^
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni/NativeHelloWorld.cpp:5:10: fatal error: 'Marshal.hpp' file not found
+#include "Marshal.hpp"
+         ^~~~~~~~~~~~~
+20 errors generated.
+make: *** [C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/helloworld/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/__/__/__/__/__/djinni/jni/NativeHelloWorld.o] Error 1

@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "helloworld-debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libhelloworld.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "helloworld",
+      "files": [
+        {
+          "src": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\jni\\..\\..\\..\\..\\..\\djinni\\jni\\NativeHelloWorld.cpp",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/build//../sources/cxx-stl/llvm-libc++abi/include -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -std\u003dc++14 -fexceptions -frtti -Wall -Wextra -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/jni -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../djinni/cpp -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../node_modules/djinni/support-lib/jni -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../node_modules/djinni/support-lib -IC:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/src/main/jni/../../../../../src/cpp -frtti -fexceptions"
+        }
+      ],
+      "output": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libhelloworld.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

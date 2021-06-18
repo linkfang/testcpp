@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -Werror,-Wformat-security -std=gnu++11 -fPIC   -std=gnu++11 -o CMakeFiles\\native-lib.dir\\C_\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.cpp.o -c C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.cpp",
+  "file": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.cpp"
+}
+]

@@ -1,0 +1,8 @@
+ninja: Entering directory `C:\Users\LinkF\Documents\Personal\CheetahNetworks\cpptest\testcpp\android\app\.cxx\cmake\debug\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so
