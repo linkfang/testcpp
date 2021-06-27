@@ -1,3 +1,15 @@
 # ninja log v5
 0	192	645597618	CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o	3c8e9b0f4cc3debe
 192	1503	645597619	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	577b0146af24961e
+2	142	645924051	CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o	3c8e9b0f4cc3debe
+142	3055	645924054	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	577b0146af24961e
+2	934	646520563	CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o	3c8e9b0f4cc3debe
+934	1817	646520564	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	577b0146af24961e
+1	531	646521645	CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o	3c8e9b0f4cc3debe
+532	713	646521645	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	577b0146af24961e
+0	1162	646524877	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	4cfb0e9278bc073c
+1162	1683	646524878	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	b6eec1538eeebec
+5	334	646525220	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	4cfb0e9278bc073c
+335	463	646525220	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	b6eec1538eeebec
+2	354	646525570	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	4cfb0e9278bc073c
+354	476	646525570	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	b6eec1538eeebec

@@ -37,12 +37,12 @@ include rules.ninja
 # Order-only phony target for native-lib
 
 build cmake_object_order_depends_target_native-lib: phony
-build CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o: CXX_COMPILER__native-lib C$:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp || cmake_object_order_depends_target_native-lib
+build CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/NativeHelloWorld.cpp || cmake_object_order_depends_target_native-lib
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles\native-lib.dir\C_\Users\LinkF\Documents\Personal\CheetahNetworks\cpptest\testcpp\djinni\jni\NativeHelloWorld.cpp.o.d
+  DEP_FILE = CMakeFiles\native-lib.dir\src\main\cpp\NativeHelloWorld.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -Werror,-Wformat-security -std=gnu++11 -fPIC   -std=gnu++11
   OBJECT_DIR = CMakeFiles\native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\C_\Users\LinkF\Documents\Personal\CheetahNetworks\cpptest\testcpp\djinni\jni
+  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir\src\main\cpp
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target native-lib
@@ -51,7 +51,7 @@ build CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetwork
 #############################################
 # Link the shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86\libnative-lib.so
 
-build ../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o | C$:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o | C$:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/21/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -fexceptions -Werror,-Wformat-security -std=gnu++11
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
   LINK_LIBRARIES = -llog -latomic -lm

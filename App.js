@@ -6,12 +6,17 @@ export default class App extends Component {
   state = {
     message: 'loading...',
   };
-  async componentDidMount() {
+
+  updateText = theNum => {
+    this.setState({
+      message: theNum,
+    });
+  };
+
+  componentDidMount() {
     try {
-      const message = await HelloWorld.sayHello();
-      this.setState({
-        message,
-      });
+      console.log('hello: ', HelloWorld);
+      HelloWorld.sayHello(this.updateText);
     } catch (e) {
       alert(e);
     }

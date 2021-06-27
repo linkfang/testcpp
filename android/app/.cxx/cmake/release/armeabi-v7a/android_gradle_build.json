@@ -1,0 +1,48 @@
+{
+  "stringTable": {
+    "0": "C:/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/android/app/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/LinkF/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fexceptions -Werror,-Wformat-security -std=gnu++11 -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\CmakeLists.txt",
+    "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-src/debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\.cxx\\cmake\\release\\armeabi-v7a\" native-lib",
+      "buildType": "release",
+      "toolchain": "2960603284",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\cpp\\hello_world.hpp",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2960603284": {
+      "cppCompilerExecutable": "C:\\Users\\LinkF\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

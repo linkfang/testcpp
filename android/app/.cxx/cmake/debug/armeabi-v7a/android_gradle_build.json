@@ -21,21 +21,12 @@
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.cpp",
+          "src": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\src\\main\\cpp\\NativeHelloWorld.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
-      "headers": [
-        {
-          "header": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\cpp\\hello_world.hpp",
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "header": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\djinni\\jni\\NativeHelloWorld.hpp",
-          "workingDirectoryOrdinal": 0
-        }
-      ],
+      "headers": [],
       "output": "C:\\Users\\LinkF\\Documents\\Personal\\CheetahNetworks\\cpptest\\testcpp\\android\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libnative-lib.so",
       "runtimeFiles": []
     }

@@ -1,3 +1,7 @@
 # ninja log v5
-0	123	645597619	CMakeFiles/native-lib.dir/C_/Users/LinkF/Documents/Personal/CheetahNetworks/cpptest/testcpp/djinni/jni/NativeHelloWorld.cpp.o	afe5ca4efd99368a
-123	273	645597620	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	d874142680f658ab
+1	488	646524878	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	a533c546008feb78
+490	647	646524878	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	6459227966503011
+2	336	646525220	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	a533c546008feb78
+336	456	646525221	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	6459227966503011
+3	347	646525571	CMakeFiles/native-lib.dir/src/main/cpp/NativeHelloWorld.cpp.o	a533c546008feb78
+347	469	646525571	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	6459227966503011

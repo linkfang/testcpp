@@ -1,7 +1,9 @@
 
 package com.testcpp.helloworld;
 
-import com.cppreactnative.helloworld.HelloWorld;
+import android.util.Log;
+
+import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -10,15 +12,18 @@ import com.facebook.react.bridge.ReactMethod;
 public class HelloWorldModule extends ReactContextBaseJavaModule {
   
     // Add the following lines
-    private HelloWorld cppApi; // instance var for our cppApi
+
   
     static {
         System.loadLibrary("native-lib"); // load the "helloworld" JNI module
     }
-  
+
+
+    private native String getHelloWorld(long test);
+
+
     public HelloWorldModule(ReactApplicationContext reactContext) {
-        super(reactContext); 
-        cppApi = HelloWorld.test; // create a new instance of our cppApi
+        super(reactContext);
     }
   
     @Override
@@ -27,9 +32,11 @@ public class HelloWorldModule extends ReactContextBaseJavaModule {
     }
   
     @ReactMethod
-    public void sayHello(Promise promise) { 
-        // call the "getHelloWorld()" method on our C++ class and get the results.
-        int myString = cppApi.getHelloWorld();
-        promise.resolve(myString);
+    public void sayHello(Callback callBack) {
+        // call the "getHelloWorld()" method on our C++ class and get the results
+
+        String myInt = getHelloWorld(2);
+
+        callBack.invoke(myInt);
     }
 }
